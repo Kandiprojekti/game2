@@ -1,1 +1,123 @@
-{}
+{
+    "Avain": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"huonekalu", "String": "examine"}
+            },
+            {
+                "command": "Inventory_add",
+                "item": "Avain_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "Avain_furniture"
+            }
+        ]
+    },
+    "Jakoavain": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"jakoavain_furniture", "String": "examine"}
+            },
+            {
+                "command": "Inventory_add",
+                "item": "Jakoavain_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "Avain_furniture"
+            }
+        ]
+    },
+    "Hattu": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object":"Hattu_furniture", "String": "examine"}
+            },
+            {
+                "command": "Inventory_add",
+                "item": "Hattu_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "Hattu_furniture"
+            }
+        ]
+    },
+    "Nappi":{
+        "click":[
+            {
+                "command": "monologue",
+                "textkey": {"object":"esine", "String": "examine"}  
+            }
+        ],
+        "joku_item":[
+            {
+                "command": "monologue",
+                "textkey": {"object":"esine", "String": "esine1"}  
+            },
+            {
+            "command": "inventory_remove",
+                "item": "joku_item" 
+            },
+            {
+                "command": "inventory_remove",
+                "item": "joku_item" 
+            }
+        ]
+    },
+    "Aikakone": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "aikakone"
+            },
+            {"command": "monologue",
+                "textkey": {"object":"aikakone_start", "String": "start"},
+                "timeout": 3000
+
+            }
+        ]
+    },
+    "Nappi_ekakerta": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "ukraina"
+            },
+            {"command": "monologue",
+                "textkey": {"object":"ukraina_start", "String": "start"},
+                "timeout": 3000
+
+            }
+        ]
+    },
+    "Nappi_tokakerta": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "kreikka"
+            },
+            {"command": "monologue",
+                "textkey": {"object":"kreikka_start", "String": "start"},
+                "timeout": 3000
+
+            }
+        ]
+    },
+    "Nappi_kolmaskerta": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "piha"
+            },
+            {"command": "monologue",
+                "textkey": {"object":"piha_start", "String": "start"},
+                "timeout": 3000
+            }
+        ]
+    }
+}
