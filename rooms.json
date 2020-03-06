@@ -38,7 +38,7 @@
             "attrs": {
                 "category": "room",
                 "id": "aikakone",
-                "start": true,
+                "start": false,
                 "visible": false
             },
             "children": [
@@ -46,7 +46,7 @@
                     "attrs": {
                         "category": "room_background",
                         "height": 543,
-                        "id": "aikakone",
+                        "id": "aikakone_Tausta",
                         "src": "images/1273_001.jpg",
                         "width": 981,
                         "visible": true
@@ -72,7 +72,7 @@
             "attrs": {
                 "category": "room",
                 "id": "Ukraina",
-                "start": true,
+                "start": false,
                 "visible": false
             },
             "children": [
@@ -80,7 +80,7 @@
                     "attrs": {
                         "category": "room_background",
                         "height": 543,
-                        "id": "Ukraina",
+                        "id": "Ukraina_tausta",
                         "src": "images/1272_001.jpg",
                         "width": 981,
                         "visible": true
@@ -118,7 +118,7 @@
             "attrs": {
                 "category": "room",
                 "id": "Kreikka",
-                "start": true,
+                "start": false,
                 "visible": false
             },
             "children": [
@@ -126,7 +126,7 @@
                     "attrs": {
                         "category": "room_background",
                         "height": 543,
-                        "id": "Kreikka",
+                        "id": "Kreikka_tausta",
                         "src": "images/1274_001.jpg",
                         "width": 981,
                         "visible": true
@@ -146,40 +146,6 @@
                 }
             ],
             "className": "Layer"
-        },
-
-        {
-            "attrs": {
-                "category": "room",
-                "id": "aloitushuone",
-                "start": true,
-                "visible": false
-            },
-            "children": [
-                {
-                    "attrs": {
-                        "category": "room_background",
-                        "height": 543,
-                        "id": "TÄHÄN HUONEEN ID",
-                        "src": "images/1275_001.jpg",
-                        "width": 981,
-                        "visible": true
-                    },
-                    "className": "Image"
-                },
-                {
-                    "attrs": {
-                        "category": "furniture",
-                        "id": "huonekalu1",
-                        "src": "path/to/picture.jpg",
-                        "visible": true,
-                        "x": 150,
-                        "y": 70
-                    },
-                    "className": "Image"
-                }
-            ],
-            "className": "Layer"
-        }
+        }         
     ]
 }
