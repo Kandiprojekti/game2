@@ -1,12 +1,12 @@
 {
-    "Avain": {
+    "Avain_furniture": {
         "click": [
             {
                 "command": "monologue",
-                "textkey": {"object":"huonekalu", "String": "examine"}
+                "textkey": {"object":"Avain", "String": "examine"}
             },
             {
-                "command": "Inventory_add",
+                "command": "inventory_add",
                 "item": "Avain_item"
             },
             {
@@ -15,6 +15,32 @@
             }
         ]
     },
+    "Avain_item": {
+        "click": [
+            {
+                "command": "monologue", 
+                "textkey": {"object":"Avain", "String": "examine_inv"}
+            }
+        ],
+        "aikakone_furniture": [
+            {
+                "command": "inventory_remove",
+                "item": "Avain_item"
+            },
+            {
+                "command": "do_transition", 
+                "destination": "aikakone"
+            },
+            {
+                "command": "monologue", 
+                "textkey": {"object":"Avain", "String": "aikakone"},
+                "timeout": 3000 
+            }
+
+        ]
+
+    },
+
     "Jakoavain": {
         "click": [
             {
@@ -22,7 +48,7 @@
                 "textkey": {"object":"jakoavain_furniture", "String": "examine"}
             },
             {
-                "command": "Inventory_add",
+                "command": "inventory_add",
                 "item": "Jakoavain_item"
             },
             {

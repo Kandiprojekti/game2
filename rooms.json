@@ -29,6 +29,17 @@
                         "y": 70
                     },
                     "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "aikakone_furniture",
+                        "src": "images/aikakone.png",
+                        "visible": true,
+                        "x": 300,
+                        "y": 350
+                    },
+                    "className": "Image"
                 }
             ],
             "className": "Layer"

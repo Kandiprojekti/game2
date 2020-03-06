@@ -19,10 +19,11 @@
     },
     "Avain": {
         "examine": "Tällä avaimella voin varmasti aukaista jotain",
-        "Aikakone": "Hei tämähän aikaisee aikakoneen oven!",
+        "aikakone": "Hei tämähän aukaisee aikakoneen oven!",
         "Hattu": "oletko aivan varma että tämä sopii tähän?",
         "Puhelin": "Puhelimen aukaisuun tarvitaan kyllä erilainen menetelmä!",
-        "Reppu": "En kyllä ole kuullut repusta joka avataan avaimella"
+        "Reppu": "En kyllä ole kuullut repusta joka avataan avaimella",
+        "examine_inv": "Hmm mihinhän tämä avain voisi sopia?"
 
     },
     "huonekalunID": {
