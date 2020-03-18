@@ -11,6 +11,15 @@
     {
         "attrs": {
             "category": "item",
+            "id": "aikakone_item",
+            "src": "images/aikakone.png",
+            "visible": false
+        },
+        "className" : "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
             "id": "Hattu_item",
             "src": "images/Hattu.png",
             "visible": false
